@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: MontserratReg;
+  src: url("../fonts/MontserratReg.woff2") format("woff2");
+}
+@font-face {
+  font-family: MontserratItalic;
+  src: url("../fonts/MontserratItalic.woff2") format("woff2");
+}
+@font-face {
+  font-family: Grandslang;
+  src: url("../fonts/Grandslang.woff2") format("woff2");
+}
