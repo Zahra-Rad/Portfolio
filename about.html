@@ -9,19 +9,35 @@
 </head>
 
 <body>
-    <main class="w-full min-h-[100vh] bg-secondary">
+    <main class="w-full min-h-[100vh] bg-primary">
         <aside
-            class="fixed w-full md:w-[10%] md:pl-[6px] md:h-[100vh] flex md:flex-col items-center pt-[5%] md:pb-[30px] z-30">
+            class="md:fixed w-full md:w-[10%] md:pl-[6px] md:h-[100vh] flex md:flex-col items-center pt-[5%] md:pb-[30px] z-30">
             <div class="pr-[15px] pl-[20px] md:mb-[40px] md:-rotate-90">
-                <a href="/index.html" class="font-MontserratReg text-primary text-center tracking-[5px] uppercase transition
+                <a href="index.html" class="font-MontserratReg text-secondary text-center tracking-[5px] uppercase transition
                         block duration-300 font-[500] hover:line-through text-[10px]">HOME</a>
             </div>
-            <div class="w-[100px] md:w-px md:h-[100px] h-[1.5px] bg-primary md:mt-[10px] md:mb-[80px]">
+            <div class="w-[100px] md:w-px md:h-[100px] h-[1.5px] bg-secondary md:mt-[10px] md:mb-[80px]">
             </div>
             <!-- <p class="block flex-1 w-[110px] pr-[15px] pl-[20px] text-right text-[10px] tracking-[4px] font-MontserratReg font-[500] md:absolute md:left-[-20%] md:bottom-[3vh] md:mb-[40px] md:-rotate-90 md:right-0 lg:left-0">©/2024</p> -->
         </aside>
-        <section class="flex flex-col lg:flex-row max-w-full pl-[10%] pr-[10%] relative">
-            <figure></figure>
+        <section class="flex flex-col lg:flex-row max-w-full px-[10%]">
+            <article class="pb-[22%] pt-[10%] flex flex-col justify-center w-full max-w-[768px] relative mx-auto text-secondary font-MontserratReg text-[12px] leading-[20px]">
+                <figure class="mt-[1%] w-[35vw] absolute top-0 right-0"> 
+                    <img src="src/img/me.jpg" alt="" class="w-full object-cove">
+                </figure>
+                <h2 class="mb-[1vh] pt-[30%] text-[14vw] tracking-[0] leading-[1em] font-[300] font-Grandslang text-left">About</h2>
+                <h1 class="max-w-full font-Grandslang font-[300] leading-[1.3em] text-[24px] tracking-[0.5px] mb-[14px] mt-1" >I'm Zahra. A pattionate Front-End Web Developer.</h1>
+                <!-- <p class="max-w-full font-[400] leading-[1.9em] text-[14px] tracking-[0.5px] mx-auto mb-[14px]"></p> -->
+                <h2 class="max-w-full font-[500] leading-[1.75em] text-[20px] tracking-[4px] uppercase font-Grandslang mb-[14px]  text-left mt-10">skills</h2>
+                <p class="max-w-full font-[400] leading-[1.9em] text-[14px] tracking-[0.5px] mb-[14px]">
+                    HTML / HTML5 / CSS / CSS3 / Scss / Bootstrap / Tailwind / Javascript / python
+                </p>
+                <!-- <h2 class="max-w-full font-[500] leading-[1.75em] text-[20px] tracking-[4px] uppercase font-Grandslang mb-[14px]  text-left mt-10">interests</h2>
+                <p class="max-w-full font-[400] leading-[1.9em] text-[14px] tracking-[0.5px] mb-[14px]">
+                    Photography / Adventure / Music
+                </p> -->
+                <a href="contact.html" class="py-[12px] px-[24px] text-[12px] bg-secondary text-primary tracking-[1px] rounded-[50px] font-Grandslang font-[400] transition-all duration-300 ease-in-out hover:px-[30px] w-fit mt-10">Contact me</a>
+            </article>
         </section>
     </main>
 </body>
