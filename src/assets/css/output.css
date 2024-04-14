@@ -631,6 +631,14 @@ video {
   margin-top: 1%;
 }
 
+.mb-\[24px\] {
+  margin-bottom: 24px;
+}
+
+.mb-\[vh\] {
+  margin-bottom: vh;
+}
+
 .block {
   display: block;
 }
@@ -723,6 +731,14 @@ video {
   border-radius: 50px;
 }
 
+.border {
+  border-width: 1px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
 .bg-primary {
   --tw-bg-opacity: 1;
   background-color: rgb(236 231 225 / var(--tw-bg-opacity));
@@ -806,6 +822,38 @@ video {
   padding-top: 5%;
 }
 
+.pb-\[\] {
+  padding-bottom: ;
+}
+
+.pb-\[1\] {
+  padding-bottom: 1;
+}
+
+.pb-\[10\] {
+  padding-bottom: 10;
+}
+
+.pb-\[105\] {
+  padding-bottom: 105;
+}
+
+.pb-\[10\%\] {
+  padding-bottom: 10%;
+}
+
+.pt-\[1\%\] {
+  padding-top: 1%;
+}
+
+.pt-\[12\%\] {
+  padding-top: 12%;
+}
+
+.pt-\[0\%\] {
+  padding-top: 0%;
+}
+
 .text-left {
   text-align: left;
 }
@@ -865,6 +913,18 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[1vw\] {
+  font-size: 1vw;
+}
+
+.text-\[16vw\] {
+  font-size: 16vw;
+}
+
+.text-\[1px\] {
+  font-size: 1px;
 }
 
 .font-\[300\] {
@@ -941,6 +1001,26 @@ video {
   color: rgb(26 24 24 / var(--tw-text-opacity));
 }
 
+.text-\[\] {
+  color: ;
+}
+
+.text-\[1\] {
+  color: 1;
+}
+
+.text-\[12\] {
+  color: 12;
+}
+
+.text-\[12p\] {
+  color: 12p;
+}
+
+.text-\[12px\`\] {
+  color: 12px`;
+}
+
 .opacity-0 {
   opacity: 0;
 }
@@ -1005,6 +1085,14 @@ video {
 .hover\:translate-x-\[15px\]:hover {
   --tw-translate-x: 15px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:border:hover {
+  border-width: 1px;
+}
+
+.hover\:border-none:hover {
+  border-style: none;
 }
 
 .hover\:px-\[30px\]:hover {
@@ -1370,6 +1458,46 @@ video {
     max-width: 20rem;
   }
 
+  .md\:max-w-0 {
+    max-width: 0px;
+  }
+
+  .md\:max-w-\[\] {
+    max-width: ;
+  }
+
+  .md\:max-w-\[4\] {
+    max-width: 4;
+  }
+
+  .md\:max-w-\[4v\] {
+    max-width: 4v;
+  }
+
+  .md\:max-w-\[4vw\] {
+    max-width: 4vw;
+  }
+
+  .md\:max-w-\[40vw\] {
+    max-width: 40vw;
+  }
+
+  .md\:max-w-\[vw\] {
+    max-width: vw;
+  }
+
+  .md\:max-w-\[3vw\] {
+    max-width: 3vw;
+  }
+
+  .md\:max-w-\[39vw\] {
+    max-width: 39vw;
+  }
+
+  .md\:max-w-\[35vw\] {
+    max-width: 35vw;
+  }
+
   .md\:translate-x-1\/2 {
     --tw-translate-x: 50%;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1472,8 +1600,44 @@ video {
     padding-top: 25%;
   }
 
+  .md\:pl-20 {
+    padding-left: 5rem;
+  }
+
+  .md\:pl-0 {
+    padding-left: 0px;
+  }
+
+  .md\:pl-1 {
+    padding-left: 0.25rem;
+  }
+
+  .md\:pl-14 {
+    padding-left: 3.5rem;
+  }
+
+  .md\:pl-10 {
+    padding-left: 2.5rem;
+  }
+
+  .md\:pt-\[1\%\] {
+    padding-top: 1%;
+  }
+
+  .md\:pt-\[15\%\] {
+    padding-top: 15%;
+  }
+
   .md\:align-middle {
     vertical-align: middle;
+  }
+
+  .md\:text-\[14px\] {
+    font-size: 14px;
+  }
+
+  .md\:text-\[14vw\] {
+    font-size: 14vw;
   }
 
   .md\:leading-3 {
@@ -1482,6 +1646,26 @@ video {
 
   .md\:leading-10 {
     line-height: 2.5rem;
+  }
+
+  .md\:text-\[\] {
+    color: ;
+  }
+
+  .md\:text-\[1\] {
+    color: 1;
+  }
+
+  .md\:text-\[14\] {
+    color: 14;
+  }
+
+  .md\:text-\[14p\] {
+    color: 14p;
+  }
+
+  .md\:text-\[14v\] {
+    color: 14v;
   }
 }
 
@@ -1515,6 +1699,22 @@ video {
     margin-top: 0px;
   }
 
+  .lg\:mb-\[\] {
+    margin-bottom: ;
+  }
+
+  .lg\:mb-\[4\] {
+    margin-bottom: 4;
+  }
+
+  .lg\:mb-\[4v\] {
+    margin-bottom: 4v;
+  }
+
+  .lg\:mb-\[4vh\] {
+    margin-bottom: 4vh;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -1533,6 +1733,10 @@ video {
 
   .lg\:w-3\/4 {
     width: 75%;
+  }
+
+  .lg\:max-w-\[35vw\] {
+    max-width: 35vw;
   }
 
   .lg\:flex-row {
@@ -1566,6 +1770,30 @@ video {
 
   .lg\:pt-96 {
     padding-top: 24rem;
+  }
+
+  .lg\:pt-\[\] {
+    padding-top: ;
+  }
+
+  .lg\:pt-\[1\] {
+    padding-top: 1;
+  }
+
+  .lg\:pt-\[10\] {
+    padding-top: 10;
+  }
+
+  .lg\:pt-\[10\%\] {
+    padding-top: 10%;
+  }
+
+  .lg\:pl-1 {
+    padding-left: 0.25rem;
+  }
+
+  .lg\:pl-16 {
+    padding-left: 4rem;
   }
 
   .lg\:text-\[11vw\] {
